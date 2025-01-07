@@ -8,6 +8,7 @@
     <title>Soutenance</title>
     <link href="./style.css" rel="stylesheet" />
     <script type="text/javascript" src="./tools.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </head>
 <body>
 <!-- rules and instructions -->
@@ -97,19 +98,26 @@
 <!-- html wrapper -->
 <div class="card input">
     <div class="formulaire">
-        <button type="button" class="btn btn-primary" onclick="compute()">
-            Etude de 1 à 100
-        </button>
+        <div class="button" onclick="compute()">
+            Etude de <input id="startValue" type="text" value="1"> à <input id="endValue" type="text" value="100">
+        </div>
     </div>
 </div>
 
 <!-- html display area wrapper -->
 <div class="card result" id="result"></div>
+<center>
+<div id="tooltip" class="tooltip"></div>
+<svg id="mySvg"></svg>
+</center>
+<br>
+<br>
+<br>
 
 <script type="text/javascript">
 
-    // YOUR CODE HERE
-    // ...
+
+    //compute();
     
 </script>
 

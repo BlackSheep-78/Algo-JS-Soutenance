@@ -123,3 +123,56 @@ th, td  {
     border-radius: .25rem;
     padding: 10px;
 }
+
+#mySvg {
+    border: 1px solid grey;
+    margin : auto;
+    width:900px;
+    height: 600px;
+  }
+
+  .tooltip {
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    display: none; /* Hidden by default */
+    white-space: nowrap;
+  }
+
+  .dot:hover{
+    cursor: pointer;
+  }
+
+  .button
+  {
+    background-color: #3099f9;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+
+  .button input
+  {
+    width: 25px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid grey;
+    
+  }
+
+input:focus
+{
+    outline: none;
+}
+
+  .button:hover
+  {
+    background-color: #0069D9;
+    cursor: pointer;
+
+  }
+  
